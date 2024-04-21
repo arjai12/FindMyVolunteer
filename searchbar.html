@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindMyVolunteer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <nav class="links">
+        <a href="home.html">About Us</a>
+        <a href="volunteer.html">Volunteering Info</a>
+        <a href="donations.html">Donations</a>
+    </nav>
+    <h1 id="findmyvolunteer">FindMyVolunteer</h1>
+    <a href="contact.html" class="contact">Contact Us</a>
+</header>
+
+<!-- MAIN HEADING -->
+<label for="vsearch">Search your location for nearby events to volunteer:</label>
+<input type="search" id="vsearch" name="vsearch">
+<br><br><br><br>
+
+<div id="Hope-Community" style="display: none;">
+    <h1>Hope Community Food Bank</h1>
+    <p>Location: 123 Main St, Anytown, CA 12345</p>
+    <p>Phone number: (555) 555-5555</p>
+    <p>Website: <a href="https://gethope.net/localhope/food-pantry/">https://gethope.net/localhope/food-pantry/</a></p>
+    <p>Availability: Tuesday & Thursday, 10:00 AM - 2:00 PM</p>
+    <p>Description: Emergency food distribution, Serves low-income families and individuals</p>
+</div>
+
+<div id="Fresh-Harvest" style="display: none;">
+    <h1>Fresh Harvest Pantry</h1>
+    <p>Location: 123 Main St, Anytown, CA 12345</p>
+    <p>Phone number: (555) 555-5555</p>
+    <p>Website: <a href="https://gethope.net/localhope/food-pantry/">https://gethope.net/localhope/food-pantry/</a></p>
+    <p>Availability: Tuesday & Thursday, 10:00 AM - 2:00 PM</p>
+    <p>Description: Emergency food distribution, Serves low-income families and individuals</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 FindMyVolunteer. All rights reserved.</p>
+        <p>Designed with ❤️ by FindMyVolunteer</p>
+    </div>
+</footer>
+
+<script>
+var x = document.getElementById("vsearch").value;
+var hero = document.getElementById("Hope-Community");
+var bero = document.getElementById("Fresh-Harvest");
+if (x.toLowerCase() === "anytown"){
+    hero.style.display = "block";
+}
+</script>
+</body>
+</html>

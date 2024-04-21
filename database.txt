@@ -1,0 +1,3 @@
+Name,Address,Phone Number,Website,Hours of Operation,Services Offered,Notes
+Hope Community Food Bank,123 Main St, Anytown, CA 12345, (555) 555-5555, https://gethope.net/localhope/food-pantry/, Tuesday & Thursday, 10:00 AM - 2:00 PM, Emergency food distribution, Serves low-income families and individuals
+Fresh Harvest Pantry,456 Elm St, Anytown, CA 12345, (555) 555-4444, https://freshharvest.com/, Monday, Wednesday & Friday, 9:00 AM - 1:00 PM, Grocery distribution, Offers fresh produce and bread along with canned goods
